@@ -1,5 +1,5 @@
 {
-	"name": "Sample Theme",
+	"name": "Legible My Theme",
 	"colors": {
 		//"editor.background": "#263238",
 		"editor.background": "#292926",
@@ -104,6 +104,8 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
+				"entity.name.function.ruby",//add
+				//"source.ruby keyword.control.ruby",//add
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
@@ -183,6 +185,25 @@
 			"settings": {
 				//"foreground": "#FFCB6B"
 				"foreground": "#fcff00"
+			}
+		},
+		{
+			"name": "Ruby Variable Names",// 追加. @,@@,$
+			"scope": [
+				"variable.other.readwrite",
+				"punctuation.definition.variable.ruby"
+			],
+			"settings": {
+				"foreground": "#99b7ff"
+			}
+		},
+		{
+			"name": "Ruby Function Parameters",// 追加. メソッド引数
+			"scope": [
+				"variable.parameter.function.ruby"
+			],
+			"settings": {
+				"foreground": "#ffcfc7"
 			}
 		},
 		{
