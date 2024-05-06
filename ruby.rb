@@ -92,6 +92,7 @@ module Hello
 
     def method_9
       'https://example.com'
+    end
   end
 end
 
